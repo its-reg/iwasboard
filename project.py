@@ -1,6 +1,6 @@
 '''
 Project:    CS50 Python Final
-Author:     Regina Chua
+Author:     Reg
 Date:       DEC 2024
 
 Instructions:
@@ -29,7 +29,7 @@ import requests
 from io import BytesIO
 
 # Set streamlit page title
-st.set_page_config(page_title="Mosaic Maker by Regina Chua", page_icon="🖼️")
+st.set_page_config(page_title="I was Board, by Reg", page_icon="🖼️")
 
 # Adding a background
 st.markdown(
@@ -49,7 +49,7 @@ st.markdown(
 st.markdown(
     """
     <div style="text-align: right;">
-        <a href="https://github.com/rchuable" target="_blank">
+        <a href="https://github.com/its-reg" target="_blank">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
         </a>
     </div>
@@ -117,8 +117,8 @@ def create_mosaic(images):
 
 # Main function
 def main():
-    st.title("Mosaic Maker")
-    st.subheader("App developed by Regina Chua")
+    st.title("I was Board")
+    st.subheader("App developed by Reg")
     st.text("This app generates a 3-column grid-style mosaic where the images are cropped to fixed dimensions. Alternatively, you can screenshot the preview section if you prefer to retain the image's original dimensions.")
 
     # Initialize session state
