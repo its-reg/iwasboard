@@ -119,7 +119,7 @@ def create_mosaic(images):
 def main():
     st.title("I was Board")
     st.subheader("App developed by Reg")
-    st.text("This app generates a 3-column grid-style mosaic where the images are cropped to fixed dimensions. Alternatively, you can screenshot the preview section if you prefer to retain the image's original dimensions.")
+    st.text("This app generates a 3-column grid where the images are cropped to fixed dimensions. Alternatively, you can screenshot the preview section if you prefer to retain the image's original dimensions.")
 
     # Initialize session state
     initialize_session_state()
@@ -143,22 +143,22 @@ def main():
     display_image_grid(st.session_state.images)
 
     # Title for mosaic
-    st.header("Export as Mosaic")
-    title = st.text_input("Name the mosaic with image filetype:", value="mosaic.png")
+    st.header("Export your board")
+    title = st.text_input("Name with image filetype:", value="mosaic.png")
 
     # Make mosaic
-    if st.button("Make Mosaic"):
+    if st.button("Make your board"):
         if st.session_state.images:
             collage = create_mosaic(st.session_state.images)
             st.image(collage, caption=title)
 
-            st.text("Give the app a moment. A button will appear below to download the mosaic.")
+            st.text("Give the app a moment. A button will appear below to download.")
 
             # Download button
             img_byte_arr = BytesIO()
             collage.save(img_byte_arr, format='PNG')
             img_byte_arr = img_byte_arr.getvalue()
-            st.download_button(label="Download Mosaic", data=img_byte_arr, file_name=title, mime="image/png")
+            st.download_button(label="Download Board", data=img_byte_arr, file_name=title, mime="image/png")
         else:
             st.error("Please upload at least one image.")
 
