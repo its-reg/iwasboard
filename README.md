@@ -2,7 +2,7 @@
 #### Video Demo (hidden as of 2025): https://youtu.be/COVwBVFQV_I
 #### Description:
 
-![Screenshot of Mosaic Maker UI](images/mosaic_maker_ui.jpg)
+![Screenshot of Mosaic Maker UI](images/ui.png)
 
 [![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-brightgreen)](https://iwasboard.streamlit.app/)
 
@@ -14,7 +14,7 @@ Here is sample mosaic output for a Jinx & Isha reference:
 ![Mosaic output of Jinx from Arcane](images/jinx.png)
 
 Then here is my art derived from this reference:
-![Art by Courage artwork of Jinx from Arcane, titled Jinx Leading the People, depicted from Eugene Delacroix's Liberty Leading the People](https://i.pinimg.com/736x/7b/1b/bb/7b1bbb5bc4947531f58ec6a3109ba18e.jpg)
+![Reg's artwork of Jinx from Arcane, titled Jinx Leading the People, depicted from Eugene Delacroix's Liberty Leading the People](https://64.media.tumblr.com/1a4058f0dcdaeb9e17b3b8d8767e7efe/a2d792d87753e840-43/s500x750/149209e41c2942e61025742ee840719319d29a5b.pnj)
 
 Let's get into it! Mosaic Maker features the following functions:
 - Add images by local file upload and/or URL
