@@ -119,7 +119,7 @@ def create_mosaic(images):
 def main():
     st.title("I was Board")
     st.subheader("App developed by Reg")
-    st.text("This app generates a 3-column grid where the images are cropped to fixed dimensions. Alternatively, you can screenshot the preview section if you prefer to retain the image's original dimensions.")
+    st.text("This app generates a 3-column grid where the images are cropped to fixed dimensions.")
 
     # Initialize session state
     initialize_session_state()
@@ -144,7 +144,7 @@ def main():
 
     # Title for mosaic
     st.header("Export your board")
-    title = st.text_input("Name with image filetype:", value="mosaic.png")
+    title = st.text_input("Name with image filetype:", value="board.png")
 
     # Make mosaic
     if st.button("Make your board"):
