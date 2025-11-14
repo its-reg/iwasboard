@@ -2,11 +2,11 @@
 #### Video Demo (hidden as of 2025): https://youtu.be/COVwBVFQV_I
 #### Description:
 
-![Screenshot of Mosaic Maker UI](images/ui.png)
+![Screenshot of UI](images/ui.png)
 
 [![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-brightgreen)](https://iwasboard.streamlit.app/)
 
-Mosaic Maker is streamlit application I designed to quickly collage images in a 3-column grid to use as a reference. This can apply to vision boards, art reference sheets, palette combinations, mood boards, meme grids (e.g., favorite anime 3x3), and more.
+'I was Board' is streamlit application I designed to quickly collage images in a 3-column grid to use as a reference. This can apply to vision boards, art reference sheets, palette combinations, mood boards, meme grids (e.g., favorite anime 3x3), and more.
 
 In my case as a digital artist, I wanted a quick way to build **reference sheets**. Similar to a bibliography in research writing, reference sheets are an artist's visual bibliography; it sets the start for how we determine the composition, lighting, colors, and textures that go into a piece. Since I also make fanart, I need reference images to get specific elements, such as a character's hair or clothing, into the canvas.
 
@@ -16,7 +16,7 @@ Here is sample mosaic output for a Jinx & Isha reference:
 Then here is my art derived from this reference:
 ![Reg's artwork of Jinx from Arcane, titled Jinx Leading the People, depicted from Eugene Delacroix's Liberty Leading the People](https://64.media.tumblr.com/1a4058f0dcdaeb9e17b3b8d8767e7efe/a2d792d87753e840-43/s500x750/149209e41c2942e61025742ee840719319d29a5b.pnj)
 
-Let's get into it! Mosaic Maker features the following functions:
+Let's get into it! 'I was Board' features the following functions:
 - Add images by local file upload and/or URL
 - Customize filename (optional)
 - Refresh preview of images
