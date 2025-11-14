@@ -1,10 +1,10 @@
-# MOSAIC MAKER
-#### Video Demo: https://youtu.be/COVwBVFQV_I
+# I was Board, formerly Mosaic Maker
+#### Video Demo (hidden as of 2025): https://youtu.be/COVwBVFQV_I
 #### Description:
 
 ![Screenshot of Mosaic Maker UI](images/mosaic_maker_ui.jpg)
 
-[![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-brightgreen)](https://mosaicmaker.streamlit.app/)
+[![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-brightgreen)](https://iwasboard.streamlit.app/)
 
 Mosaic Maker is streamlit application I designed to quickly collage images in a 3-column grid to use as a reference. This can apply to vision boards, art reference sheets, palette combinations, mood boards, meme grids (e.g., favorite anime 3x3), and more.
 
@@ -29,9 +29,9 @@ I added a function for refreshing the preview of images stored in the session (o
 
 Lastly, I added a function to download the mosaic with a custom filename. I figured a point-and-click function would be easier on users than if you let them right-click the mosaic output, write a filename, then save that. It is set to export to wherever your browser has its default folder for downloads -- typically the Downloads folder.
 
-And that's the app! Give it a spin by visiting https://mosaicmaker.streamlit.app or by clicking this button:
+And that's the app! Give it a spin by visiting https://iwasboard.streamlit.app or by clicking this button:
 
-[![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-brightgreen)](https://mosaicmaker.streamlit.app/)
+[![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-brightgreen)](https://iwasboard.streamlit.app/)
 
 I want to give a shoutout to deepankarvarma who made an Image Collage app using Python. It was a great reference for me to build my app (and also a good source for the sick background image of the app!). Streamlit documentation was also extremely helpful in building this app, from how to initialize a session to uploading files and more. I also want to give credits to Copilot for helping me troubleshoot the test script.
 
